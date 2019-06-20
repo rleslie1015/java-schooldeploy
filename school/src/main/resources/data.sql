@@ -9,6 +9,18 @@ FROM student;
 
 DELETE
 FROM instructor;
+--
+-- DELETE
+-- FROM users;
+--
+-- DELETE
+-- FROM roles;
+--
+-- INSERT INTO roles (name)
+--     values ('user')
+--
+-- INSERT INTO users (username, password)
+--     VALUES ('barnbarn', 'password')
 
 INSERT INTO instructor (instructid, instructname)
     VALUES(1, 'Sally'),
